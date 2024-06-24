@@ -1,0 +1,28 @@
+{
+    "name": "youtube-clone-2024",
+    "version": "1.0.0",
+    "description": "my favorite app",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kim-tiffany/youtube_clone-reloaded.git"
+    },
+    "scripts": {
+        "dev": "nodemon --exec babel-node src/server.js"
+    },
+    "author": "Tiffany Kim",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kim-tiffany/youtube_clone-reloaded/issues"
+    },
+    "homepage": "https://github.com/kim-tiffany/youtube_clone-reloaded#readme",
+    "dependencies": {
+        "express": "^4.19.2",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.7",
+        "@babel/node": "^7.24.7",
+        "@babel/preset-env": "^7.24.7",
+        "nodemon": "^3.1.3"
+    }
+}
